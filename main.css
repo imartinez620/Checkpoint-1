@@ -33,3 +33,15 @@
     height: 225px;
     object-fit: cover;
 }
+
+.gridFour{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: green;
+}
+
+#gridFour-ID1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
