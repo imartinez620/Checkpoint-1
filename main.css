@@ -45,3 +45,21 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+.gridFive{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: #F7F7F7;
+}
+
+#gridFive-ID1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+#gridFive-ID1 img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
