@@ -2,3 +2,20 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+.gridTwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.gridTwo > .gridTwo-paragraph-one{
+    background-color: red;
+}
+
+.gridTwo > .gridTwo-paragraph-two{
+    background-color: blue;
+}
+
+.gridTwo > .gridTwo-paragraph-three{
+    background-color: yellow;
+}
