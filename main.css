@@ -50,7 +50,7 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
     width: 500px;
-    background-color: #F7F7F7;
+    background-color: #ebebeb;
 }
 
 #gridFive-ID1{
@@ -62,4 +62,15 @@
     width: 200px;
     height: 200px;
     object-fit: cover;
+}
+
+.gridSix{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 500px;
+    background-color: lightgray;
+}
+
+.gridSix > .gridSix-paragraph{
+    font-family: "Sixtyfour", sans-serif;
 }
